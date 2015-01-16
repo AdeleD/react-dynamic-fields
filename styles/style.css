@@ -1,1 +1,68 @@
 /* Your CSS styles here */
+
+#react-dynamic-fields {
+    font-family: "Helvetica", "Arial", sans-serif;
+    width: 495px;
+    font-size: 13px;
+}
+
+#react-dynamic-fields .input-prepend {
+    position: relative;
+}
+
+#react-dynamic-fields input {
+    outline: none;
+    border: 1px solid #c6c6c6;
+    height: 35px;
+    width: 100%;
+    margin-top: -1px;
+    padding-left: 50px;
+}
+
+#react-dynamic-fields input:focus {
+    border: 1px solid #c6c6c6;
+}
+
+#react-dynamic-fields .bonus-field {
+    background: #C6C6C6;
+    display: block;
+    line-height: 32px;
+    color: white;
+    margin-top: -2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#react-dynamic-fields .bonus-field.add:hover {
+    background: #00A6F0;
+}
+
+#react-dynamic-fields .icon-times {
+    display: block;
+    background: url('../images/delete-btn.png');
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 3px;
+    right: 1px;
+}
+
+#react-dynamic-fields .add-on span {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background-color: #ededed;
+    height: 33px;
+    width: 44px;
+}
+
+#react-dynamic-fields .add-on .icon-link {
+    display: block;
+    background: url('../images/link-addon.png');
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 4px;
+    left: 9px;
+}
