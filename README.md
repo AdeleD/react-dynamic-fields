@@ -18,3 +18,9 @@ Getting started:
 ##### To load the component:
 
 `var DynamicFields = require("react-dynamic-fields");`
+
+
+Example:
+---------------------
+
+Open the 'index.html' file from the 'sample' folder into your browser to see an example of usage.
